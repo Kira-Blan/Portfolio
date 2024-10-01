@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Fuente del Proyecto Raleway -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Mi Portafolio</title>
+</head>
+
+<body>
+    <div id="convertir-a-pdf" class="portafolio" onclick="click">
+        <!-- Menú -->
+        <header class="cabecera" id="cabecera">
+            <div class="titulo">
+                <img class="cabecera__logo" src="assets/vector.png" alt="Logo">
+                <h1 class="cabecera__titulo">Ester Mosquera</h1>
+            </div>
+            <nav class="navegacion">
+                <ul class="navegacion__lista">
+                    <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
+                    <li class="navegacion__elemento"><a href="#habilidades">Habilidades</a></li>
+                    <li class="navegacion__elemento"><a href="#aficiones">Hobbies</a></li>
+                    <!-- <li class="navegacion__elemento"><a href="#formacion">Formación</a></li> -->
+                    <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
+                    <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Sección de Presentación -->
+        <section class="presentacion">
+            <img class="presentacion__foto" src="assets/profile_Ester.png" alt="Foto de perfil">
+            <div class="presentacion__contenedor">
+                <h2 class="presentacion__titulo">Hola, soy Ester, desarrolladora web jr</h2>
+                <p class="presentacion__subtitulo">Estoy formada en diseño y desarrollo de páginas web responsivas y
+                    manejo
+                    de Base de Datos con MySQL. Actualmente estoy formándome en el programa de Front End/React de Oracle
+                    ONE
+                    en Alura Latam y en Diseño UX/UI de Talento Tech.</p>
+                <ul class="redes">
+                    <li class="redes__img"><a href="https://github.com/Kira-Blan">Github <img src="assets/arrow.png"
+                                alt="Flecha"></a></li>
+                    <li class="redes__img"><a href="www.linkedin.com/in/ester-mosquera-098a66a9">Linkedin <img
+                                src="assets/arrow.png" alt="Flecha"></a></li>
+                    <li class="redes__img"><a href="">Instagram <img src="assets/arrow.png" alt="Flecha"></a></li>
+                    <li class="redes__img"><a href="">C.V. <img src="assets/arrow.png" alt="Flecha"></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Sección sobre mí -->
+        <section class="sobre-mi" id="sobre-mi">
+            <h2 class="sobre-mi__titulo">Sobre mí</h2>
+            <p class="sobre-mi__texto">Durante 11 años me desempeñé en el área de Atención al cliente, donde pude
+                desarollar
+                cualidades para escuchar, comprender y resolver problemas. Actualmente me estoy
+                adentrando en el mundo de la programación Full Stack empleando distintas heramientas de desarrollo.
+                También
+                cuento con conocimientos en
+                manejo de Base de Datos con Python y MySQL y adquiriendo nociones sobre Diseño UX/UI</p>
+            <p class="sobre-mi__texto"></p>
+            <!-- Firma opcional -->
+            <!--<img class="sobre-mi__firma" src="assets/signature.png" alt="Firma">-->
+        </section>
+
+        <!-- Sección de Habilidades -->
+        <section class="habilidades" id="habilidades">
+            <h2 class="habilidades__titulo">Habilidades</h2>
+            <ul class="habilidades__lista">
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/html_5_icon.png" alt="HTML ícono">
+                    <p class="habilidades__nombre">HTML 5</p>
+                </li>
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/js_icon.png" alt="JavaScript ícono">
+                    <p class="habilidades__nombre">JavaScript</p>
+                </li>
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/pithon_icon.png" alt="Python ícono">
+                    <p class="habilidades__nombre">Python</p>
+                </li>
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/mysql_icon.png" alt="MySQL ícono">
+                    <p class="habilidades__nombre">MySQL</p>
+                </li>
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/react_icon.png" alt="React ícono">
+                    <p class="habilidades__nombre">React</p>
+                </li>
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/css_3_icon.png" alt="CSS ícono">
+                    <p class="habilidades__nombre">CSS</p>
+                </li>
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/git_icon.png" alt="Git ícono">
+                    <p class="habilidades__nombre">Git</p>
+                </li>
+                <li class="habilidades__elemento">
+                    <img class="habilidades__icono" src="assets/github_icon.png" alt="Github ícono">
+                    <p class="habilidades__nombre">Github</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Sección de Proyectos -->
+        <section class="proyectos" id="proyectos">
+            <h2 class="proyectos__titulo">Proyectos</h2>
+            <div class="link_github">
+                <h4>Github:</h4>
+                <a href="https://github.com/Kira-Blan" target="_blank">https://github.com/Kira-Blan</a>
+            </div>
+        </section>
+
+        <!-- Sección de Aficiones -->
+        <section class="aficiones" id="aficiones">
+            <h2 class="aficiones__titulo">Hobbies</h2>
+            <ul class="aficiones__lista">
+                <li class="aficiones__elemento">
+                    <img class="aficiones__icono" src="assets/walk.png" alt="Patinaje">
+                    <p class="aficiones__nombre">Caminar</p>
+                </li>
+                <li class="aficiones__elemento">
+                    <img class="aficiones__icono" src="assets/headphones (1).png" alt="Tocar bajo">
+                    <p class="aficiones__nombre">Escuchar música</p>
+                </li>
+                <li class="aficiones__elemento">
+                    <img class="aficiones__icono" src="assets/device-tv.png" alt="Ver series">
+                    <p class="aficiones__nombre">Ver series</p>
+                </li>
+                <li class="aficiones__elemento">
+                    <img class="aficiones__icono" src="assets/chef-hat.png" alt="Cocinar">
+                    <p class="aficiones__nombre">Cocinar</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Sección de Formación académica -->
+        <!--<section class="formacion" id="formacion">
+        <h2 class="formacion__titulo">Formación académica</h2>
+        <ul class="formacion__lista">
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/ufpr_logo.png" alt="UFPR">
+                <div>
+                    <h3 class="formacion__nombre">Análisis de datos</h3>
+                    <p class="formacion__detalle">2018 - UFPR</p>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/alura_logo.png" alt="Alura">
+                <div>
+                    <h3 class="formacion__nombre">Formación en UX Design</h3>
+                    <p class="formacion__detalle">2019 - Alura</p>
+                </div>
+            </li>
+            <li class="formacion__elemento">
+                <img class="formacion__icono" src="assets/ufrj_logo.png" alt="UFRJ">
+                <div>
+                    <h3 class="formacion__nombre">Posgrado en diseño</h3>
+                    <p class="formacion__detalle">En curso - UFRJ</p>
+                </div>
+            </li>
+        </ul>
+    </section>-->
+
+        <!-- Sección de Proyectos -->
+        <!-- <section class="proyectos" id="proyectos"> -->
+        <!-- <h2 class="proyectos__titulo">Experiencia Profesional</h2> -->
+        <!-- <div class="proyectos__contenedor">
+            <!-- <h3 class="proyectos__nombre">Título de la Experiencia</h3> -->
+        <!-- <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt -->
+        <!-- quisquam unde repudiandae fugiat, earum temporibus!</p> -->
+        <!-- </div> -->
+        <!-- <div class="proyectos__contenedor"> -->
+        <!-- <h3 class="proyectos__nombre">Título de la Experiencia</h3> -->
+        <!-- <p class="proyectos__descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt -->
+        <!-- quisquam unde repudiandae fugiat, earum temporibus!</p> -->
+        <!-- </div> -->
+        <!-- </section> -->
+    </div>
+    <footer>
+        <!-- Sección de Contacto -->
+        <section class="contacto" id="contacto">
+            <h2 class="contacto__titulo">Envíame un mensaje!</h2>
+            <p>¿Quieres hacer una pregunta, propuesta laboral o solo decir hola? ¡Adelante!</p>
+
+            <form class="contacto__formulario" action="https://formsubmit.co/kiarazoe7@gmail.com" method="post"
+                name="formulario" id="formulario" autocomplete="off">
+                <input class="contacto__campo" type="text" required autocomplete="off" name="nombre"
+                    placeholder="Nombre">
+                <input class="contacto__campo" type="email" required autocomplete="off" name="correo"
+                    placeholder="Correo Electrónico">
+                <textarea class="contacto__campo_textarea" required name="mensaje" placeholder="Mensaje"></textarea>
+                <button class="contacto__boton" type="submit">Enviar</button>
+            </form>
+
+            <div class="ir__arriba">
+                <a href="#cabecera"><img class="flecha" src="assets/arrow-up.png" alt="Flecha hacia arriba"></a>
+            </div>
+        </section>
+
+        <div class="pdf">
+            <button id="descargarPDF">Descargar en PDF</button>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://unpkg.com/sweetalert2@11"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+</html>
